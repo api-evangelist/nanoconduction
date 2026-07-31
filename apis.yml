@@ -1,8 +1,28 @@
 aid: nanoconduction
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nanoconduction.png
 name: Nanoconduction
-description: Nanoconduction is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Nanoconduction, Inc. was a Sunnyvale, California hardware startup that
+  developed carbon-nanotube-based thermal management (chip-cooling) solutions for the
+  microprocessor industry. The company licensed NASA Ames-developed Nano Engineered
+  Thermal Material — vertically aligned carbon nanotube array composites that act as
+  a high-efficiency thermal interface at the junction where processors meet heat sinks.
+  Backed by Battery Ventures, Jerusalem Venture Partners, Phoenix Venture Partners,
+  Western Technology Investment, and Woodside Fund (roughly $23M raised), Nanoconduction
+  was acquired by Unidym in July 2008 and is permanently closed. It was surfaced as
+  a Battery Ventures portfolio company and added to the API Evangelist network for
+  enrichment; the enrichment pass found no public API, developer, or specification
+  surface — a defunct materials-science hardware company with no digital API footprint.'
 url: https://raw.githubusercontent.com/api-evangelist/nanoconduction/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +30,27 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: unidym
+x-acquired-date: '2008-07-25'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Semiconductors
+- Nanotechnology
+- Thermal Management
+- Carbon Nanotubes
+- Hardware
+- Materials Science
+- Defunct
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
